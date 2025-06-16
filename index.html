@@ -2,68 +2,108 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Innkeeper Class 2025</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>My Awesome Pet Adoption Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Menu bar -->
-    <header>
-      <div class="logo">
-        <img src="https://picsum.photos/50/50" alt="" />
-      </div>
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Pricing</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact Us</a>
-      </nav>
-      <div class="btn">
-        <button id="signup" type="button">Sign Up</button>
-        <button id="get-started">Get Started</button>
-      </div>
-    </header>
+    <h1 id="page-title">Welcome to Pet Haven Adoptions!</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nesciunt
+      dignissimos officia deleniti maiores repellendus alias delectus rerum
+      laboriosam culpa quod expedita, vitae quidem, ratione saepe. Numquam in
+      officia aspernatur?
+    </p>
 
-    <!-- Hero Section -->
-    <div class="hero">
-      <h1>Welcome to Innkeeper</h1>
-      <p>
-        Your one-stop solution for managing your inn with ease and efficiency.
-      </p>
-      <button class="hero-btn">Learn More</button>
-    </div>
+    <ul id="navigation">
+      <li id="nav-item"><a href="#" id="nav-link">Available Pets</a></li>
+      <li id="nav-item"><a href="#" id="nav-link">How to Adopt</a></li>
+      <li id="nav-item"><a href="#" id="nav-link">Contact Us</a></li>
+    </ul>
 
-    <!-- Features Section -->
-    <div class="feature-title">
-      <h1>Features</h1>
-      <p>
-        Discover the amazing features that make Innkeeper the best choice for
-        your inn management needs.
-      </p>
-    </div>
-    <section class="features">
-      <div class="feature-item">
-        <img src="https://picsum.photos/200/200" alt="Feature 1" />
-        <h3>Feature 1</h3>
-        <p>Description of feature 1.</p>
+    <!-- Available Pets Section -->
+    <h2>Our Adorable Friends Looking for a Home</h2>
+    <section class="available-pets">
+      <div class="pet dog">
+        <img src="/assets/images/dog.jpeg" alt="image of a dog" />
+        <h3>Name: Buddy</h3>
+        <p>Breed: Golden Retriever Mix</p>
+        <p>Age: 3 years</p>
+        <p>
+          Description: Buddy is a playful and loyal companion, loves walks in
+          the park.
+        </p>
+        <button>Learn More About Buddy</button>
       </div>
-      <div class="feature-item">
-        <img src="https://picsum.photos/200/200" alt="Feature 1" />
-        <h3>Feature 1</h3>
-        <p>Description of feature 1.</p>
+      <div class="pet cat">
+        <img src="/assets/images/cat.avif" alt="image of a cat" />
+        <h3>Name: Whiskers</h3>
+        <p>Breed: Domestic Shorthair</p>
+        <p>Age: 1 year Old</p>
+        <p>
+          Description: Whiskers is a curious and cuddly cat, loves napping in
+          sunny spots.
+        </p>
+        <button>Learn More About Whiskers</button>
       </div>
-      <div class="feature-item">
-        <img src="https://picsum.photos/200/200" alt="Feature 2" />
-        <h3>Feature 2</h3>
-        <p>Description of feature 2.</p>
-      </div>
-      <div class="feature-item">
-        <img src="https://picsum.photos/200/200" alt="Feature 3" />
-        <h3>Feature 3</h3>
-        <p>Description of feature 3.</p>
+      <div class="pet rabbit">
+        <img src="/assets/images/rabbit.jpg" alt="image of a rabbit" />
+        <h3>Name: Hopper</h3>
+        <p>Breed: Holland Lop</p>
+        <p>Age: 6 months old</p>
+        <p>
+          Description: Hopper is an energetic little bunny, loves fresh carrots
+          and gentle pets.
+        </p>
+        <button>Learn More About Fluffy</button>
       </div>
     </section>
+    <!-- Available pets ends!!! -->
+
+    <!-- How to Adopt -->
+    <h2>How to Adopt a Friend</h2>
+    <section class="how-to-adopt">
+      <ol>
+        <li>Browse our available pets.</li>
+        <li>Fill out our adoption application form.</li>
+        <li>Schedule a meet-and-greet.</li>
+        <li>Take your new friend home!</li>
+      </ol>
+    </section>
+    <!-- How to Adopt ends!!! -->
+
+    <!-- Contact Us -->
+    <section class="contact-us">
+      <h2>Get in Touch!</h2>
+      <form id="contact-form" action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /> <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /> <br />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <!-- Contact Us ends!!! -->
+    <footer>
+      <p>&copy; 2025 Pet Haven Adoptions. All rights reserved.</p>
+      <p>Follow us on social media!</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
